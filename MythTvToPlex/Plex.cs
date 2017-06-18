@@ -32,6 +32,11 @@ namespace MythTvToPlex
                 p.Start();
                 p.PriorityClass = ProcessPriorityClass.BelowNormal;
                 p.WaitForExit();
+
+                if (p.ExitCode != 0)
+                {
+                    throw new Exception("HandbrakeCLI wasn't successful");
+                }
             }
         }
 
