@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4620cad9-e277-4ae6-978e-e5825fe30b8b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://fattony.reederhome.com:6544/Channel/wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="xsd.xsd" MetadataType="Schema" ID="5553ff83-1434-43a7-b5fd-e0269052e3d3" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=VideoSourceList" />
+    <MetadataFile FileName="xsd1.xsd" MetadataType="Schema" ID="0f25611a-714a-4836-87f7-4b3ef4a4670e" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=Lineup" />
+    <MetadataFile FileName="xsd2.xsd" MetadataType="Schema" ID="f6375497-6e01-4fde-bc4e-f67a4798e598" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArtworkInfo" />
+    <MetadataFile FileName="xsd3.xsd" MetadataType="Schema" ID="b6e40e22-f637-4cfe-987f-8cb74486aeb6" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=VideoMultiplex" />
+    <MetadataFile FileName="xsd4.xsd" MetadataType="Schema" ID="ba737795-aafa-49c7-b264-1d35eba14023" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArrayOfProgram&amp;name=Program" />
+    <MetadataFile FileName="xsd5.xsd" MetadataType="Schema" ID="0fb70930-6ddd-4fdb-9082-20c5f761a39f" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=RecordingInfo" />
+    <MetadataFile FileName="xsd6.xsd" MetadataType="Schema" ID="8862a674-f3fa-46bb-b651-852432621fc8" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArrayOfLineup&amp;name=Lineup" />
+    <MetadataFile FileName="xsd7.xsd" MetadataType="Schema" ID="7ba6e8e3-282c-47b1-8884-41afc83d1696" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=VideoSource" />
+    <MetadataFile FileName="xsd8.xsd" MetadataType="Schema" ID="1a78600a-d19a-46c0-aa34-972508a4e6ec" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArrayOfVideoMultiplex&amp;name=VideoMultiplex" />
+    <MetadataFile FileName="xsd9.xsd" MetadataType="Schema" ID="7a57f73f-6d8a-4986-8f05-3f8691297f62" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArrayOfChannelInfo&amp;name=ChannelInfo" />
+    <MetadataFile FileName="xsd10.xsd" MetadataType="Schema" ID="569f77df-fd0c-4157-8dba-c70a1eb7fc04" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=Program" />
+    <MetadataFile FileName="xsd11.xsd" MetadataType="Schema" ID="e30641e8-7311-4abe-85e6-ee95717d0ac3" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArtworkInfoList" />
+    <MetadataFile FileName="xsd12.xsd" MetadataType="Schema" ID="6fe4b860-26c5-4924-bfac-9c52d1a55cc5" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArrayOfString" />
+    <MetadataFile FileName="xsd13.xsd" MetadataType="Schema" ID="636856bf-7f00-4360-b471-4ad4e83d7d6a" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=LineupList" />
+    <MetadataFile FileName="xsd14.xsd" MetadataType="Schema" ID="58e655af-13b0-445b-bd03-b5f1fc851af4" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=VideoMultiplexList" />
+    <MetadataFile FileName="xsd15.xsd" MetadataType="Schema" ID="b41e4a98-2426-4150-b79b-5be183afdf44" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArrayOfVideoSource&amp;name=VideoSource" />
+    <MetadataFile FileName="xsd16.xsd" MetadataType="Schema" ID="ccbb6d35-80ab-4476-a055-1e8c4d613064" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ChannelInfo" />
+    <MetadataFile FileName="xsd17.xsd" MetadataType="Schema" ID="2b2d7a6b-bf97-4e7c-8746-7be61f80bfdf" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ArrayOfArtworkInfo&amp;name=ArtworkInfo" />
+    <MetadataFile FileName="xsd18.xsd" MetadataType="Schema" ID="7c442605-e3bc-4ab2-a50c-0680d0094d37" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/xsd?type=ChannelInfoList" />
+    <MetadataFile FileName="ChannelServices.wsdl" MetadataType="Wsdl" ID="12dc8c50-fb77-4150-a5dd-acc47f31dc70" SourceId="1" SourceUrl="http://fattony.reederhome.com:6544/Channel/wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
