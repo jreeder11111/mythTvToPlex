@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0D7C30F5-8A09-4F1D-B943-1990CAB236A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>MythTvToPlex</RootNamespace>
+    <AssemblyName>MythTvToPlex</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -76,28 +76,28 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Connected Services\FattonyChannel\ChannelServices.wsdl" />
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.ArrayOfString.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.ArrayOfString.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.ChannelInfo.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.ChannelInfo.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.ChannelInfoList.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.ChannelInfoList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.LineupList.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.LineupList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.VideoMultiplex.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.VideoMultiplex.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.VideoMultiplexList.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.VideoMultiplexList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.VideoSource.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.VideoSource.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyChannel\ConsoleApp1.FattonyChannel.VideoSourceList.datasource">
+    <None Include="Connected Services\FattonyChannel\MythTvToPlex.FattonyChannel.VideoSourceList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\FattonyChannel\xsd.xsd">
@@ -157,16 +157,16 @@
     <None Include="Connected Services\FattonyChannel\xsd9.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\FattonyContent\ConsoleApp1.FattonyContent.ArrayOfString.datasource">
+    <None Include="Connected Services\FattonyContent\MythTvToPlex.FattonyContent.ArrayOfString.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyContent\ConsoleApp1.FattonyContent.ArtworkInfoList.datasource">
+    <None Include="Connected Services\FattonyContent\MythTvToPlex.FattonyContent.ArtworkInfoList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyContent\ConsoleApp1.FattonyContent.LiveStreamInfo.datasource">
+    <None Include="Connected Services\FattonyContent\MythTvToPlex.FattonyContent.LiveStreamInfo.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyContent\ConsoleApp1.FattonyContent.LiveStreamInfoList.datasource">
+    <None Include="Connected Services\FattonyContent\MythTvToPlex.FattonyContent.LiveStreamInfoList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\FattonyContent\ContentServices.wsdl" />
@@ -191,25 +191,25 @@
     <None Include="Connected Services\FattonyContent\xsd6.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\FattonyDvr\ConsoleApp1.FattonyDvr.ArrayOfString.datasource">
+    <None Include="Connected Services\FattonyDvr\MythTvToPlex.FattonyDvr.ArrayOfString.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyDvr\ConsoleApp1.FattonyDvr.EncoderList.datasource">
+    <None Include="Connected Services\FattonyDvr\MythTvToPlex.FattonyDvr.EncoderList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyDvr\ConsoleApp1.FattonyDvr.Program.datasource">
+    <None Include="Connected Services\FattonyDvr\MythTvToPlex.FattonyDvr.Program.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyDvr\ConsoleApp1.FattonyDvr.ProgramList.datasource">
+    <None Include="Connected Services\FattonyDvr\MythTvToPlex.FattonyDvr.ProgramList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyDvr\ConsoleApp1.FattonyDvr.RecRule.datasource">
+    <None Include="Connected Services\FattonyDvr\MythTvToPlex.FattonyDvr.RecRule.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyDvr\ConsoleApp1.FattonyDvr.RecRuleList.datasource">
+    <None Include="Connected Services\FattonyDvr\MythTvToPlex.FattonyDvr.RecRuleList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\FattonyDvr\ConsoleApp1.FattonyDvr.TitleInfoList.datasource">
+    <None Include="Connected Services\FattonyDvr\MythTvToPlex.FattonyDvr.TitleInfoList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\FattonyDvr\DvrServices.wsdl" />

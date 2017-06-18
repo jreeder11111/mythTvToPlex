@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConsoleApp1.FattonyContent {
+namespace MythTvToPlex.FattonyContent {
     using System.Runtime.Serialization;
     using System;
     
@@ -427,7 +427,7 @@ namespace ConsoleApp1.FattonyContent {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyContent.LiveStreamInfo[] LiveStreamInfosField;
+        private MythTvToPlex.FattonyContent.LiveStreamInfo[] LiveStreamInfosField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -440,7 +440,7 @@ namespace ConsoleApp1.FattonyContent {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public ConsoleApp1.FattonyContent.LiveStreamInfo[] LiveStreamInfos {
+        public MythTvToPlex.FattonyContent.LiveStreamInfo[] LiveStreamInfos {
             get {
                 return this.LiveStreamInfosField;
             }
@@ -472,7 +472,7 @@ namespace ConsoleApp1.FattonyContent {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyContent.ArtworkInfo[] ArtworkInfosField;
+        private MythTvToPlex.FattonyContent.ArtworkInfo[] ArtworkInfosField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -485,7 +485,7 @@ namespace ConsoleApp1.FattonyContent {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public ConsoleApp1.FattonyContent.ArtworkInfo[] ArtworkInfos {
+        public MythTvToPlex.FattonyContent.ArtworkInfo[] ArtworkInfos {
             get {
                 return this.ArtworkInfosField;
             }
@@ -605,22 +605,22 @@ namespace ConsoleApp1.FattonyContent {
     public interface Content {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/AddLiveStream", ReplyAction="http://mythtv.org/Content/AddLiveStreamResponse")]
-        ConsoleApp1.FattonyContent.LiveStreamInfo AddLiveStream(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
+        MythTvToPlex.FattonyContent.LiveStreamInfo AddLiveStream(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/AddLiveStream", ReplyAction="http://mythtv.org/Content/AddLiveStreamResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> AddLiveStreamAsync(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> AddLiveStreamAsync(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/AddRecordingLiveStream", ReplyAction="http://mythtv.org/Content/AddRecordingLiveStreamResponse")]
-        ConsoleApp1.FattonyContent.LiveStreamInfo AddRecordingLiveStream(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
+        MythTvToPlex.FattonyContent.LiveStreamInfo AddRecordingLiveStream(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/AddRecordingLiveStream", ReplyAction="http://mythtv.org/Content/AddRecordingLiveStreamResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> AddRecordingLiveStreamAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> AddRecordingLiveStreamAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/AddVideoLiveStream", ReplyAction="http://mythtv.org/Content/AddVideoLiveStreamResponse")]
-        ConsoleApp1.FattonyContent.LiveStreamInfo AddVideoLiveStream(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
+        MythTvToPlex.FattonyContent.LiveStreamInfo AddVideoLiveStream(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/AddVideoLiveStream", ReplyAction="http://mythtv.org/Content/AddVideoLiveStreamResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> AddVideoLiveStreamAsync(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> AddVideoLiveStreamAsync(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/DownloadFile", ReplyAction="http://mythtv.org/Content/DownloadFileResponse")]
         System.Nullable<bool> DownloadFile(string URL, string StorageGroup);
@@ -641,10 +641,10 @@ namespace ConsoleApp1.FattonyContent {
         System.Threading.Tasks.Task<string> GetFileAsync(string StorageGroup, string FileName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetFileList", ReplyAction="http://mythtv.org/Content/GetFileListResponse")]
-        ConsoleApp1.FattonyContent.ArrayOfString GetFileList(string StorageGroup);
+        MythTvToPlex.FattonyContent.ArrayOfString GetFileList(string StorageGroup);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetFileList", ReplyAction="http://mythtv.org/Content/GetFileListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.ArrayOfString> GetFileListAsync(string StorageGroup);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.ArrayOfString> GetFileListAsync(string StorageGroup);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetHash", ReplyAction="http://mythtv.org/Content/GetHashResponse")]
         string GetHash(string StorageGroup, string FileName);
@@ -659,16 +659,16 @@ namespace ConsoleApp1.FattonyContent {
         System.Threading.Tasks.Task<string> GetImageFileAsync(string StorageGroup, string FileName, System.Nullable<int> Width, System.Nullable<int> Height);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetLiveStream", ReplyAction="http://mythtv.org/Content/GetLiveStreamResponse")]
-        ConsoleApp1.FattonyContent.LiveStreamInfo GetLiveStream(System.Nullable<int> Id);
+        MythTvToPlex.FattonyContent.LiveStreamInfo GetLiveStream(System.Nullable<int> Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetLiveStream", ReplyAction="http://mythtv.org/Content/GetLiveStreamResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> GetLiveStreamAsync(System.Nullable<int> Id);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> GetLiveStreamAsync(System.Nullable<int> Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetLiveStreamList", ReplyAction="http://mythtv.org/Content/GetLiveStreamListResponse")]
-        ConsoleApp1.FattonyContent.LiveStreamInfoList GetLiveStreamList(string FileName);
+        MythTvToPlex.FattonyContent.LiveStreamInfoList GetLiveStreamList(string FileName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetLiveStreamList", ReplyAction="http://mythtv.org/Content/GetLiveStreamListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfoList> GetLiveStreamListAsync(string FileName);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfoList> GetLiveStreamListAsync(string FileName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetMusic", ReplyAction="http://mythtv.org/Content/GetMusicResponse")]
         string GetMusic(System.Nullable<int> Id);
@@ -683,10 +683,10 @@ namespace ConsoleApp1.FattonyContent {
         System.Threading.Tasks.Task<string> GetPreviewImageAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> SecsIn);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetProgramArtworkList", ReplyAction="http://mythtv.org/Content/GetProgramArtworkListResponse")]
-        ConsoleApp1.FattonyContent.ArtworkInfoList GetProgramArtworkList(string Inetref, System.Nullable<int> Season);
+        MythTvToPlex.FattonyContent.ArtworkInfoList GetProgramArtworkList(string Inetref, System.Nullable<int> Season);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetProgramArtworkList", ReplyAction="http://mythtv.org/Content/GetProgramArtworkListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.ArtworkInfoList> GetProgramArtworkListAsync(string Inetref, System.Nullable<int> Season);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.ArtworkInfoList> GetProgramArtworkListAsync(string Inetref, System.Nullable<int> Season);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetRecording", ReplyAction="http://mythtv.org/Content/GetRecordingResponse")]
         string GetRecording(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
@@ -701,10 +701,10 @@ namespace ConsoleApp1.FattonyContent {
         System.Threading.Tasks.Task<string> GetRecordingArtworkAsync(string Type, string Inetref, System.Nullable<int> Season, System.Nullable<int> Width, System.Nullable<int> Height);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetRecordingArtworkList", ReplyAction="http://mythtv.org/Content/GetRecordingArtworkListResponse")]
-        ConsoleApp1.FattonyContent.ArtworkInfoList GetRecordingArtworkList(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
+        MythTvToPlex.FattonyContent.ArtworkInfoList GetRecordingArtworkList(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetRecordingArtworkList", ReplyAction="http://mythtv.org/Content/GetRecordingArtworkListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.ArtworkInfoList> GetRecordingArtworkListAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.ArtworkInfoList> GetRecordingArtworkListAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/GetVideo", ReplyAction="http://mythtv.org/Content/GetVideoResponse")]
         string GetVideo(System.Nullable<int> Id);
@@ -725,19 +725,19 @@ namespace ConsoleApp1.FattonyContent {
         System.Threading.Tasks.Task<System.Nullable<bool>> RemoveLiveStreamAsync(System.Nullable<int> Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/StopLiveStream", ReplyAction="http://mythtv.org/Content/StopLiveStreamResponse")]
-        ConsoleApp1.FattonyContent.LiveStreamInfo StopLiveStream(System.Nullable<int> Id);
+        MythTvToPlex.FattonyContent.LiveStreamInfo StopLiveStream(System.Nullable<int> Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Content/StopLiveStream", ReplyAction="http://mythtv.org/Content/StopLiveStreamResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> StopLiveStreamAsync(System.Nullable<int> Id);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> StopLiveStreamAsync(System.Nullable<int> Id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ContentChannel : ConsoleApp1.FattonyContent.Content, System.ServiceModel.IClientChannel {
+    public interface ContentChannel : MythTvToPlex.FattonyContent.Content, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ContentClient : System.ServiceModel.ClientBase<ConsoleApp1.FattonyContent.Content>, ConsoleApp1.FattonyContent.Content {
+    public partial class ContentClient : System.ServiceModel.ClientBase<MythTvToPlex.FattonyContent.Content>, MythTvToPlex.FattonyContent.Content {
         
         public ContentClient() {
         }
@@ -758,27 +758,27 @@ namespace ConsoleApp1.FattonyContent {
                 base(binding, remoteAddress) {
         }
         
-        public ConsoleApp1.FattonyContent.LiveStreamInfo AddLiveStream(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
+        public MythTvToPlex.FattonyContent.LiveStreamInfo AddLiveStream(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
             return base.Channel.AddLiveStream(StorageGroup, FileName, HostName, MaxSegments, Width, Height, Bitrate, AudioBitrate, SampleRate);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> AddLiveStreamAsync(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> AddLiveStreamAsync(string StorageGroup, string FileName, string HostName, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
             return base.Channel.AddLiveStreamAsync(StorageGroup, FileName, HostName, MaxSegments, Width, Height, Bitrate, AudioBitrate, SampleRate);
         }
         
-        public ConsoleApp1.FattonyContent.LiveStreamInfo AddRecordingLiveStream(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
+        public MythTvToPlex.FattonyContent.LiveStreamInfo AddRecordingLiveStream(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
             return base.Channel.AddRecordingLiveStream(ChanId, StartTime, MaxSegments, Width, Height, Bitrate, AudioBitrate, SampleRate);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> AddRecordingLiveStreamAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> AddRecordingLiveStreamAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
             return base.Channel.AddRecordingLiveStreamAsync(ChanId, StartTime, MaxSegments, Width, Height, Bitrate, AudioBitrate, SampleRate);
         }
         
-        public ConsoleApp1.FattonyContent.LiveStreamInfo AddVideoLiveStream(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
+        public MythTvToPlex.FattonyContent.LiveStreamInfo AddVideoLiveStream(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
             return base.Channel.AddVideoLiveStream(Id, MaxSegments, Width, Height, Bitrate, AudioBitrate, SampleRate);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> AddVideoLiveStreamAsync(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> AddVideoLiveStreamAsync(System.Nullable<int> Id, System.Nullable<int> MaxSegments, System.Nullable<int> Width, System.Nullable<int> Height, System.Nullable<int> Bitrate, System.Nullable<int> AudioBitrate, System.Nullable<int> SampleRate) {
             return base.Channel.AddVideoLiveStreamAsync(Id, MaxSegments, Width, Height, Bitrate, AudioBitrate, SampleRate);
         }
         
@@ -806,11 +806,11 @@ namespace ConsoleApp1.FattonyContent {
             return base.Channel.GetFileAsync(StorageGroup, FileName);
         }
         
-        public ConsoleApp1.FattonyContent.ArrayOfString GetFileList(string StorageGroup) {
+        public MythTvToPlex.FattonyContent.ArrayOfString GetFileList(string StorageGroup) {
             return base.Channel.GetFileList(StorageGroup);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.ArrayOfString> GetFileListAsync(string StorageGroup) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.ArrayOfString> GetFileListAsync(string StorageGroup) {
             return base.Channel.GetFileListAsync(StorageGroup);
         }
         
@@ -830,19 +830,19 @@ namespace ConsoleApp1.FattonyContent {
             return base.Channel.GetImageFileAsync(StorageGroup, FileName, Width, Height);
         }
         
-        public ConsoleApp1.FattonyContent.LiveStreamInfo GetLiveStream(System.Nullable<int> Id) {
+        public MythTvToPlex.FattonyContent.LiveStreamInfo GetLiveStream(System.Nullable<int> Id) {
             return base.Channel.GetLiveStream(Id);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> GetLiveStreamAsync(System.Nullable<int> Id) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> GetLiveStreamAsync(System.Nullable<int> Id) {
             return base.Channel.GetLiveStreamAsync(Id);
         }
         
-        public ConsoleApp1.FattonyContent.LiveStreamInfoList GetLiveStreamList(string FileName) {
+        public MythTvToPlex.FattonyContent.LiveStreamInfoList GetLiveStreamList(string FileName) {
             return base.Channel.GetLiveStreamList(FileName);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfoList> GetLiveStreamListAsync(string FileName) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfoList> GetLiveStreamListAsync(string FileName) {
             return base.Channel.GetLiveStreamListAsync(FileName);
         }
         
@@ -862,11 +862,11 @@ namespace ConsoleApp1.FattonyContent {
             return base.Channel.GetPreviewImageAsync(ChanId, StartTime, Width, Height, SecsIn);
         }
         
-        public ConsoleApp1.FattonyContent.ArtworkInfoList GetProgramArtworkList(string Inetref, System.Nullable<int> Season) {
+        public MythTvToPlex.FattonyContent.ArtworkInfoList GetProgramArtworkList(string Inetref, System.Nullable<int> Season) {
             return base.Channel.GetProgramArtworkList(Inetref, Season);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.ArtworkInfoList> GetProgramArtworkListAsync(string Inetref, System.Nullable<int> Season) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.ArtworkInfoList> GetProgramArtworkListAsync(string Inetref, System.Nullable<int> Season) {
             return base.Channel.GetProgramArtworkListAsync(Inetref, Season);
         }
         
@@ -886,11 +886,11 @@ namespace ConsoleApp1.FattonyContent {
             return base.Channel.GetRecordingArtworkAsync(Type, Inetref, Season, Width, Height);
         }
         
-        public ConsoleApp1.FattonyContent.ArtworkInfoList GetRecordingArtworkList(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
+        public MythTvToPlex.FattonyContent.ArtworkInfoList GetRecordingArtworkList(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
             return base.Channel.GetRecordingArtworkList(ChanId, StartTime);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.ArtworkInfoList> GetRecordingArtworkListAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.ArtworkInfoList> GetRecordingArtworkListAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
             return base.Channel.GetRecordingArtworkListAsync(ChanId, StartTime);
         }
         
@@ -918,11 +918,11 @@ namespace ConsoleApp1.FattonyContent {
             return base.Channel.RemoveLiveStreamAsync(Id);
         }
         
-        public ConsoleApp1.FattonyContent.LiveStreamInfo StopLiveStream(System.Nullable<int> Id) {
+        public MythTvToPlex.FattonyContent.LiveStreamInfo StopLiveStream(System.Nullable<int> Id) {
             return base.Channel.StopLiveStream(Id);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyContent.LiveStreamInfo> StopLiveStreamAsync(System.Nullable<int> Id) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyContent.LiveStreamInfo> StopLiveStreamAsync(System.Nullable<int> Id) {
             return base.Channel.StopLiveStreamAsync(Id);
         }
     }

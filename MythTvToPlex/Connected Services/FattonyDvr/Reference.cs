@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConsoleApp1.FattonyDvr {
+namespace MythTvToPlex.FattonyDvr {
     using System.Runtime.Serialization;
     using System;
     
@@ -41,7 +41,7 @@ namespace ConsoleApp1.FattonyDvr {
         private string ProtoVerField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.Program[] ProgramsField;
+        private MythTvToPlex.FattonyDvr.Program[] ProgramsField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -132,7 +132,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=6)]
-        public ConsoleApp1.FattonyDvr.Program[] Programs {
+        public MythTvToPlex.FattonyDvr.Program[] Programs {
             get {
                 return this.ProgramsField;
             }
@@ -233,13 +233,13 @@ namespace ConsoleApp1.FattonyDvr {
         private int EpisodeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.ChannelInfo ChannelField;
+        private MythTvToPlex.FattonyDvr.ChannelInfo ChannelField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.RecordingInfo RecordingField;
+        private MythTvToPlex.FattonyDvr.RecordingInfo RecordingField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.ArtworkInfoList ArtworkField;
+        private MythTvToPlex.FattonyDvr.ArtworkInfoList ArtworkField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -551,7 +551,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Order=23)]
-        public ConsoleApp1.FattonyDvr.ChannelInfo Channel {
+        public MythTvToPlex.FattonyDvr.ChannelInfo Channel {
             get {
                 return this.ChannelField;
             }
@@ -564,7 +564,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Order=24)]
-        public ConsoleApp1.FattonyDvr.RecordingInfo Recording {
+        public MythTvToPlex.FattonyDvr.RecordingInfo Recording {
             get {
                 return this.RecordingField;
             }
@@ -577,7 +577,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Order=25)]
-        public ConsoleApp1.FattonyDvr.ArtworkInfoList Artwork {
+        public MythTvToPlex.FattonyDvr.ArtworkInfoList Artwork {
             get {
                 return this.ArtworkField;
             }
@@ -687,7 +687,7 @@ namespace ConsoleApp1.FattonyDvr {
         private string DefaultAuthField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.Program[] ProgramsField;
+        private MythTvToPlex.FattonyDvr.Program[] ProgramsField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -1038,7 +1038,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=26)]
-        public ConsoleApp1.FattonyDvr.Program[] Programs {
+        public MythTvToPlex.FattonyDvr.Program[] Programs {
             get {
                 return this.ProgramsField;
             }
@@ -1307,7 +1307,7 @@ namespace ConsoleApp1.FattonyDvr {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.ArtworkInfo[] ArtworkInfosField;
+        private MythTvToPlex.FattonyDvr.ArtworkInfo[] ArtworkInfosField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -1320,7 +1320,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public ConsoleApp1.FattonyDvr.ArtworkInfo[] ArtworkInfos {
+        public MythTvToPlex.FattonyDvr.ArtworkInfo[] ArtworkInfos {
             get {
                 return this.ArtworkInfosField;
             }
@@ -1445,7 +1445,7 @@ namespace ConsoleApp1.FattonyDvr {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.Encoder[] EncodersField;
+        private MythTvToPlex.FattonyDvr.Encoder[] EncodersField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -1458,7 +1458,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public ConsoleApp1.FattonyDvr.Encoder[] Encoders {
+        public MythTvToPlex.FattonyDvr.Encoder[] Encoders {
             get {
                 return this.EncodersField;
             }
@@ -1511,7 +1511,7 @@ namespace ConsoleApp1.FattonyDvr {
         private bool LowOnFreeSpaceField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.Program RecordingField;
+        private MythTvToPlex.FattonyDvr.Program RecordingField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -1615,7 +1615,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(Order=7)]
-        public ConsoleApp1.FattonyDvr.Program Recording {
+        public MythTvToPlex.FattonyDvr.Program Recording {
             get {
                 return this.RecordingField;
             }
@@ -2437,7 +2437,7 @@ namespace ConsoleApp1.FattonyDvr {
         private string ProtoVerField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.RecRule[] RecRulesField;
+        private MythTvToPlex.FattonyDvr.RecRule[] RecRulesField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -2528,7 +2528,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=6)]
-        public ConsoleApp1.FattonyDvr.RecRule[] RecRules {
+        public MythTvToPlex.FattonyDvr.RecRule[] RecRules {
             get {
                 return this.RecRulesField;
             }
@@ -2560,7 +2560,7 @@ namespace ConsoleApp1.FattonyDvr {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private ConsoleApp1.FattonyDvr.TitleInfo[] TitleInfosField;
+        private MythTvToPlex.FattonyDvr.TitleInfo[] TitleInfosField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -2573,7 +2573,7 @@ namespace ConsoleApp1.FattonyDvr {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public ConsoleApp1.FattonyDvr.TitleInfo[] TitleInfos {
+        public MythTvToPlex.FattonyDvr.TitleInfo[] TitleInfos {
             get {
                 return this.TitleInfosField;
             }
@@ -2761,70 +2761,70 @@ namespace ConsoleApp1.FattonyDvr {
         System.Threading.Tasks.Task<System.Nullable<bool>> EnableRecordScheduleAsync(System.Nullable<uint> RecordId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetConflictList", ReplyAction="http://mythtv.org/Dvr/GetConflictListResponse")]
-        ConsoleApp1.FattonyDvr.ProgramList GetConflictList(System.Nullable<int> StartIndex, System.Nullable<int> Count);
+        MythTvToPlex.FattonyDvr.ProgramList GetConflictList(System.Nullable<int> StartIndex, System.Nullable<int> Count);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetConflictList", ReplyAction="http://mythtv.org/Dvr/GetConflictListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetConflictListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetConflictListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetEncoderList", ReplyAction="http://mythtv.org/Dvr/GetEncoderListResponse")]
-        ConsoleApp1.FattonyDvr.EncoderList GetEncoderList();
+        MythTvToPlex.FattonyDvr.EncoderList GetEncoderList();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetEncoderList", ReplyAction="http://mythtv.org/Dvr/GetEncoderListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.EncoderList> GetEncoderListAsync();
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.EncoderList> GetEncoderListAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetExpiringList", ReplyAction="http://mythtv.org/Dvr/GetExpiringListResponse")]
-        ConsoleApp1.FattonyDvr.ProgramList GetExpiringList(System.Nullable<int> StartIndex, System.Nullable<int> Count);
+        MythTvToPlex.FattonyDvr.ProgramList GetExpiringList(System.Nullable<int> StartIndex, System.Nullable<int> Count);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetExpiringList", ReplyAction="http://mythtv.org/Dvr/GetExpiringListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetExpiringListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetExpiringListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecGroupList", ReplyAction="http://mythtv.org/Dvr/GetRecGroupListResponse")]
-        ConsoleApp1.FattonyDvr.ArrayOfString GetRecGroupList();
+        MythTvToPlex.FattonyDvr.ArrayOfString GetRecGroupList();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecGroupList", ReplyAction="http://mythtv.org/Dvr/GetRecGroupListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ArrayOfString> GetRecGroupListAsync();
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ArrayOfString> GetRecGroupListAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecordSchedule", ReplyAction="http://mythtv.org/Dvr/GetRecordScheduleResponse")]
-        ConsoleApp1.FattonyDvr.RecRule GetRecordSchedule(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride);
+        MythTvToPlex.FattonyDvr.RecRule GetRecordSchedule(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecordSchedule", ReplyAction="http://mythtv.org/Dvr/GetRecordScheduleResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.RecRule> GetRecordScheduleAsync(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.RecRule> GetRecordScheduleAsync(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecordScheduleList", ReplyAction="http://mythtv.org/Dvr/GetRecordScheduleListResponse")]
-        ConsoleApp1.FattonyDvr.RecRuleList GetRecordScheduleList(System.Nullable<int> StartIndex, System.Nullable<int> Count);
+        MythTvToPlex.FattonyDvr.RecRuleList GetRecordScheduleList(System.Nullable<int> StartIndex, System.Nullable<int> Count);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecordScheduleList", ReplyAction="http://mythtv.org/Dvr/GetRecordScheduleListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.RecRuleList> GetRecordScheduleListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.RecRuleList> GetRecordScheduleListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecorded", ReplyAction="http://mythtv.org/Dvr/GetRecordedResponse")]
-        ConsoleApp1.FattonyDvr.Program GetRecorded(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
+        MythTvToPlex.FattonyDvr.Program GetRecorded(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecorded", ReplyAction="http://mythtv.org/Dvr/GetRecordedResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.Program> GetRecordedAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.Program> GetRecordedAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecordedList", ReplyAction="http://mythtv.org/Dvr/GetRecordedListResponse")]
-        ConsoleApp1.FattonyDvr.ProgramList GetRecordedList(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup);
+        MythTvToPlex.FattonyDvr.ProgramList GetRecordedList(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetRecordedList", ReplyAction="http://mythtv.org/Dvr/GetRecordedListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetRecordedListAsync(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetRecordedListAsync(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetTitleInfoList", ReplyAction="http://mythtv.org/Dvr/GetTitleInfoListResponse")]
-        ConsoleApp1.FattonyDvr.TitleInfoList GetTitleInfoList();
+        MythTvToPlex.FattonyDvr.TitleInfoList GetTitleInfoList();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetTitleInfoList", ReplyAction="http://mythtv.org/Dvr/GetTitleInfoListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.TitleInfoList> GetTitleInfoListAsync();
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.TitleInfoList> GetTitleInfoListAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetTitleList", ReplyAction="http://mythtv.org/Dvr/GetTitleListResponse")]
-        ConsoleApp1.FattonyDvr.ArrayOfString GetTitleList();
+        MythTvToPlex.FattonyDvr.ArrayOfString GetTitleList();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetTitleList", ReplyAction="http://mythtv.org/Dvr/GetTitleListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ArrayOfString> GetTitleListAsync();
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ArrayOfString> GetTitleListAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetUpcomingList", ReplyAction="http://mythtv.org/Dvr/GetUpcomingListResponse")]
-        ConsoleApp1.FattonyDvr.ProgramList GetUpcomingList(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll);
+        MythTvToPlex.FattonyDvr.ProgramList GetUpcomingList(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/GetUpcomingList", ReplyAction="http://mythtv.org/Dvr/GetUpcomingListResponse")]
-        System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetUpcomingListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll);
+        System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetUpcomingListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://mythtv.org/Dvr/RemoveRecordSchedule", ReplyAction="http://mythtv.org/Dvr/RemoveRecordScheduleResponse")]
         System.Nullable<bool> RemoveRecordSchedule(System.Nullable<uint> RecordId);
@@ -2928,12 +2928,12 @@ namespace ConsoleApp1.FattonyDvr {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface DvrChannel : ConsoleApp1.FattonyDvr.Dvr, System.ServiceModel.IClientChannel {
+    public interface DvrChannel : MythTvToPlex.FattonyDvr.Dvr, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class DvrClient : System.ServiceModel.ClientBase<ConsoleApp1.FattonyDvr.Dvr>, ConsoleApp1.FattonyDvr.Dvr {
+    public partial class DvrClient : System.ServiceModel.ClientBase<MythTvToPlex.FattonyDvr.Dvr>, MythTvToPlex.FattonyDvr.Dvr {
         
         public DvrClient() {
         }
@@ -3060,91 +3060,91 @@ namespace ConsoleApp1.FattonyDvr {
             return base.Channel.EnableRecordScheduleAsync(RecordId);
         }
         
-        public ConsoleApp1.FattonyDvr.ProgramList GetConflictList(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
+        public MythTvToPlex.FattonyDvr.ProgramList GetConflictList(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
             return base.Channel.GetConflictList(StartIndex, Count);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetConflictListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetConflictListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
             return base.Channel.GetConflictListAsync(StartIndex, Count);
         }
         
-        public ConsoleApp1.FattonyDvr.EncoderList GetEncoderList() {
+        public MythTvToPlex.FattonyDvr.EncoderList GetEncoderList() {
             return base.Channel.GetEncoderList();
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.EncoderList> GetEncoderListAsync() {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.EncoderList> GetEncoderListAsync() {
             return base.Channel.GetEncoderListAsync();
         }
         
-        public ConsoleApp1.FattonyDvr.ProgramList GetExpiringList(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
+        public MythTvToPlex.FattonyDvr.ProgramList GetExpiringList(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
             return base.Channel.GetExpiringList(StartIndex, Count);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetExpiringListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetExpiringListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
             return base.Channel.GetExpiringListAsync(StartIndex, Count);
         }
         
-        public ConsoleApp1.FattonyDvr.ArrayOfString GetRecGroupList() {
+        public MythTvToPlex.FattonyDvr.ArrayOfString GetRecGroupList() {
             return base.Channel.GetRecGroupList();
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ArrayOfString> GetRecGroupListAsync() {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ArrayOfString> GetRecGroupListAsync() {
             return base.Channel.GetRecGroupListAsync();
         }
         
-        public ConsoleApp1.FattonyDvr.RecRule GetRecordSchedule(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride) {
+        public MythTvToPlex.FattonyDvr.RecRule GetRecordSchedule(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride) {
             return base.Channel.GetRecordSchedule(RecordId, Template, ChanId, StartTime, MakeOverride);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.RecRule> GetRecordScheduleAsync(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.RecRule> GetRecordScheduleAsync(System.Nullable<uint> RecordId, string Template, System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime, System.Nullable<bool> MakeOverride) {
             return base.Channel.GetRecordScheduleAsync(RecordId, Template, ChanId, StartTime, MakeOverride);
         }
         
-        public ConsoleApp1.FattonyDvr.RecRuleList GetRecordScheduleList(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
+        public MythTvToPlex.FattonyDvr.RecRuleList GetRecordScheduleList(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
             return base.Channel.GetRecordScheduleList(StartIndex, Count);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.RecRuleList> GetRecordScheduleListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.RecRuleList> GetRecordScheduleListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count) {
             return base.Channel.GetRecordScheduleListAsync(StartIndex, Count);
         }
         
-        public ConsoleApp1.FattonyDvr.Program GetRecorded(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
+        public MythTvToPlex.FattonyDvr.Program GetRecorded(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
             return base.Channel.GetRecorded(ChanId, StartTime);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.Program> GetRecordedAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.Program> GetRecordedAsync(System.Nullable<int> ChanId, System.Nullable<System.DateTime> StartTime) {
             return base.Channel.GetRecordedAsync(ChanId, StartTime);
         }
         
-        public ConsoleApp1.FattonyDvr.ProgramList GetRecordedList(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup) {
+        public MythTvToPlex.FattonyDvr.ProgramList GetRecordedList(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup) {
             return base.Channel.GetRecordedList(Descending, StartIndex, Count, TitleRegEx, RecGroup, StorageGroup);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetRecordedListAsync(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetRecordedListAsync(System.Nullable<bool> Descending, System.Nullable<int> StartIndex, System.Nullable<int> Count, string TitleRegEx, string RecGroup, string StorageGroup) {
             return base.Channel.GetRecordedListAsync(Descending, StartIndex, Count, TitleRegEx, RecGroup, StorageGroup);
         }
         
-        public ConsoleApp1.FattonyDvr.TitleInfoList GetTitleInfoList() {
+        public MythTvToPlex.FattonyDvr.TitleInfoList GetTitleInfoList() {
             return base.Channel.GetTitleInfoList();
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.TitleInfoList> GetTitleInfoListAsync() {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.TitleInfoList> GetTitleInfoListAsync() {
             return base.Channel.GetTitleInfoListAsync();
         }
         
-        public ConsoleApp1.FattonyDvr.ArrayOfString GetTitleList() {
+        public MythTvToPlex.FattonyDvr.ArrayOfString GetTitleList() {
             return base.Channel.GetTitleList();
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ArrayOfString> GetTitleListAsync() {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ArrayOfString> GetTitleListAsync() {
             return base.Channel.GetTitleListAsync();
         }
         
-        public ConsoleApp1.FattonyDvr.ProgramList GetUpcomingList(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll) {
+        public MythTvToPlex.FattonyDvr.ProgramList GetUpcomingList(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll) {
             return base.Channel.GetUpcomingList(StartIndex, Count, ShowAll);
         }
         
-        public System.Threading.Tasks.Task<ConsoleApp1.FattonyDvr.ProgramList> GetUpcomingListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll) {
+        public System.Threading.Tasks.Task<MythTvToPlex.FattonyDvr.ProgramList> GetUpcomingListAsync(System.Nullable<int> StartIndex, System.Nullable<int> Count, System.Nullable<bool> ShowAll) {
             return base.Channel.GetUpcomingListAsync(StartIndex, Count, ShowAll);
         }
         

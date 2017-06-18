@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApp1
+namespace MythTvToPlex
 {
     public class RecordingShowDataComparer : IEqualityComparer<Recording>
     {
